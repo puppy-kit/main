@@ -1,0 +1,380 @@
+:root {
+	--duration: 20s;
+	--delay: 20s;
+}
+
+
+.main-card{
+	background: rgba(248, 249, 250, 0.57);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(14.1px);
+	-webkit-backdrop-filter: blur(14.1px);
+	border: 1px solid rgba(248, 249, 250, 0.5);
+}
+
+
+body {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	transform-style: preserve-3d;
+	perspective: 25rem;
+}
+
+.floating-photo {
+	border-radius: 10px;
+	--duration: 40s;
+	--name: float-up-1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 20vw;
+	max-height: 20vw;
+	transform: translateY(200vh);
+	animation: var(--name) var(--duration) ease-in-out infinite;
+	box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+@media (max-width: 500px) {
+	.floating-photo {max-width: 30vw; max-height: 30vw;}
+}
+
+
+
+.floating-photo:nth-child(1) {
+	animation-delay: -2s;
+	--name: float-up-1;
+	--duration: 20s;
+	left: 70vw;
+	z-index: -1;
+}
+.floating-photo:nth-child(2) {
+	animation-delay: -4s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 6vw;
+	z-index: -2;
+}
+.floating-photo:nth-child(3) {
+	animation-delay: -6s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 32vw;
+	z-index: -3;
+}
+.floating-photo:nth-child(4) {
+	animation-delay: -8s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 53vw;
+	z-index: -4;
+}
+.floating-photo:nth-child(5) {
+	animation-delay: -10s;
+	--name: float-up-3;
+	--duration: 60s;
+	left: 48vw;
+	z-index: -5;
+}
+.floating-photo:nth-child(6) {
+	animation-delay: -12s;
+	--name: float-up-1;
+	--duration: 20s;
+	left: 84vw;
+	z-index: -6;
+}
+.floating-photo:nth-child(7) {
+	animation-delay: -14s;
+	--name: float-up-3;
+	--duration: 60s;
+	left: 63vw;
+	z-index: -7;
+}
+.floating-photo:nth-child(8) {
+	animation-delay: -16s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 0vw;
+	z-index: -8;
+}
+.floating-photo:nth-child(9) {
+	animation-delay: -18s;
+	--name: float-up-1;
+	--duration: 20s;
+	left: -7vw;
+	z-index: -9;
+}
+.floating-photo:nth-child(10) {
+	animation-delay: -20s;
+	--name: float-up-3;
+	--duration: 60s;
+	left: 83vw;
+	z-index: -10;
+}
+.floating-photo:nth-child(11) {
+	animation-delay: -22s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 78vw;
+	z-index: -11;
+}
+.floating-photo:nth-child(12) {
+	animation-delay: -24s;
+	--name: float-up-3;
+	--duration: 60s;
+	left: 81vw;
+	z-index: -12;
+}
+.floating-photo:nth-child(13) {
+	animation-delay: -26s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: -6vw;
+	z-index: -13;
+}
+.floating-photo:nth-child(14) {
+	animation-delay: -28s;
+	--name: float-up-1;
+	--duration: 20s;
+	left: 58vw;
+	z-index: -14;
+}
+.floating-photo:nth-child(15) {
+	animation-delay: -30s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 35vw;
+	z-index: -15;
+}
+.floating-photo:nth-child(16) {
+	animation-delay: -32s;
+	--name: float-up-3;
+	--duration: 60s;
+	left: 36vw;
+	z-index: -16;
+}
+.floating-photo:nth-child(17) {
+	animation-delay: -34s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 5vw;
+	z-index: -17;
+}
+.floating-photo:nth-child(18) {
+	animation-delay: -36s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 0vw;
+	z-index: -18;
+}
+.floating-photo:nth-child(19) {
+	animation-delay: -38s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 79vw;
+	z-index: -19;
+}
+.floating-photo:nth-child(20) {
+	animation-delay: -40s;
+	--name: float-up-1;
+	--duration: 20s;
+	left: 49vw;
+	z-index: -20;
+}
+.floating-photo:nth-child(21) {
+	animation-delay: -42s;
+	--name: float-up-1;
+	--duration: 20s;
+	left: 54vw;
+	z-index: -21;
+}
+.floating-photo:nth-child(22) {
+	animation-delay: -44s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 20vw;
+	z-index: -22;
+}
+.floating-photo:nth-child(23) {
+	animation-delay: -46s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 7vw;
+	z-index: -23;
+}
+.floating-photo:nth-child(24) {
+	animation-delay: -48s;
+	--name: float-up-1;
+	--duration: 20s;
+	left: 29vw;
+	z-index: -24;
+}
+.floating-photo:nth-child(25) {
+	animation-delay: -50s;
+	--name: float-up-1;
+	--duration: 20s;
+	left: 64vw;
+	z-index: -25;
+}
+.floating-photo:nth-child(26) {
+	animation-delay: -52s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 24vw;
+	z-index: -26;
+}
+.floating-photo:nth-child(27) {
+	animation-delay: -54s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 61vw;
+	z-index: -27;
+}
+.floating-photo:nth-child(28) {
+	animation-delay: -56s;
+	--name: float-up-2;
+	--duration: 40s;
+	left: 49vw;
+	z-index: -28;
+}
+.floating-photo:nth-child(29) {
+	animation-delay: -58s;
+	--name: float-up-1;
+	--duration: 20s;
+	left: 69vw;
+	z-index: -29;
+}
+.floating-photo:nth-child(30) {
+	animation-delay: -60s;
+	--name: float-up-1;
+	--duration: 20s;
+	left: 64vw;
+	z-index: -30;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes float-up-3 {
+	from {
+		transform: translateY(200vh);
+	}
+	to {
+		transform: translateY(-200vh);
+	}
+}
+@keyframes float-up-2 {
+	from {
+		transform: translateY(150vh);
+	}
+	to {
+		transform: translateY(-150vh);
+	}
+}
+@keyframes float-up-1 {
+	from {
+		transform: translateY(100vh);
+	}
+	to {
+		transform: translateY(-100vh);
+	}
+}
+
+
+
+
+
+
+
+.loader {
+    position: absolute;
+    background: #fff;
+    top: -2.5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.wrapper {
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.catContainer {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.catbody {
+	width: 80px;
+}
+.tail {
+	position: absolute;
+	width: 17px;
+	top: 50%;
+	animation: tail 0.5s ease-in infinite alternate-reverse;
+	transform-origin: top;
+}
+@keyframes tail {
+	0% {
+		transform: rotateZ(60deg);
+	}
+	50% {
+		transform: rotateZ(0deg);
+	}
+	100% {
+		transform: rotateZ(-20deg);
+	}
+}
+.wall {
+	width: 300px;
+}
+.text {
+	display: flex;
+	flex-direction: column;
+	width: 50px;
+	position: absolute;
+	margin: 0px 0px 100px 120px;
+}
+.zzz {
+	color: black;
+	font-weight: 700;
+	font-size: 15px;
+	animation: zzz 2s linear infinite;
+}
+.bigzzz {
+	color: black;
+	font-weight: 700;
+	font-size: 25px;
+	margin-left: 10px;
+	animation: zzz 2.3s linear infinite;
+}
+@keyframes zzz {
+	0% {
+		color: transparent;
+	}
+	50% {
+		color: black;
+	}
+	100% {
+		color: transparent;
+	}
+}

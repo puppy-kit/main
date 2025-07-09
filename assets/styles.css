@@ -378,3 +378,25 @@ body {
 		color: transparent;
 	}
 }
+
+
+
+
+.price-img{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	border-radius: 16px;
+}
+.img-div {
+	position: relative;
+	margin-bottom: 1.5rem;
+	border-radius: 16px;
+	border: 1px dashed #F5820B;
+}
+
+.img-div button{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}

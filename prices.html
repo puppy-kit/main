@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>قیمت&zwnj;ها پاپی کیت</title>
+		
+		<link rel="icon" type="image/x-icon" href="assets/icon.png">
+		<link rel="stylesheet" href="assets/bootstrap/bootstrap.rtl.min.css"/>
+		<link rel="stylesheet" href="assets/styles.css"/>
+
+		<style>
+			@font-face {
+				font-family: "Samim-FD";
+				src: url("assets/fonts/Samim-FD.eot") format("embedded-opentype"), /* IE6–8 */ url("assets/fonts/Samim-FD.woff") format("woff"), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("assets/fonts/Samim-FD.ttf") format("truetype"); /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+			}
+
+			@font-face {
+				font-family: 'IRANSansXFaNum-Regular';
+				src: url("assets/fonts/IRANSansXFaNum-Regular.otf") format('opentype'),url("assets/fonts/IRANSansXFaNum-Regular.woff") format('woff'),url("assets/fonts/IRANSansXFaNum-Regular.ttf") format('truetype');
+			}
+
+			.ISans-R {
+				font-family: IRANSansXFaNum-Regular, Arial, Helvetica, sans-serif;
+			}
+
+			.Samim-FD {
+				font-family: Samim-FD, Arial, Helvetica, sans-serif;
+			}
+
+			body{
+				overflow-y: auto;
+			}
+
+			.btn-primary {
+			    --bs-btn-color: #fff;
+			    --bs-btn-bg: #F5820B;
+			    --bs-btn-border-color: #F5820B;
+			    --bs-btn-hover-color: #fff;
+			    --bs-btn-hover-bg: #d97813;
+			    --bs-btn-hover-border-color: #d77209;
+			    --bs-btn-focus-shadow-rgb: 49,132,253;
+			    --bs-btn-active-color: #fff;
+			    --bs-btn-active-bg: #d77209;
+			    --bs-btn-active-border-color: #dd7c17;
+			    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+			    --bs-btn-disabled-color: #fff;
+			    --bs-btn-disabled-bg: #F5820B;
+			    --bs-btn-disabled-border-color: #F5820B
+			}
+		</style>
+	</head>
+	<body class="ISans-R">
+		<div class="container-fluid">
+			<div class="card card-body shadow-lg mx-auto p-3 pb-1 bg-light" dir="rtl" style="border-radius: 15px; width:30rem; margin-top: 2.5rem; max-width: 100%; z-index: 5;">
+				<h3 class="text-center mb-4">لیست قیمت&zwnj;ها</h3>
+
+				<div class="img-div">
+					<img src="assets/prices1.jpg" class="price-img">
+					<button class="btn btn-sm btn-primary" onclick="fullscreen_img(this)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fullscreen" viewBox="0 0 16 16"><path d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5M.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5"/></svg></button>
+				</div>
+				
+				<div class="img-div">
+					<img src="assets/prices2.jpg" class="price-img">
+					<button class="btn btn-sm btn-primary" onclick="fullscreen_img(this)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fullscreen" viewBox="0 0 16 16"><path d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5M.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5"/></svg></button>
+				</div>
+				
+
+				<div class="text-center"><a href="./index.html" class="btn btn-sm btn-primary" style="width: fit-content;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16"><path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/></svg> بازگشت به صفحه اصلی</a></div>
+			</div>
+		</div>
+
+		<script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+		<script>
+			function fullscreen_img(btn){
+				img_div=btn.parentNode
+				img=img_div.getElementsByTagName('img')[0]
+				img.requestFullscreen()
+			}
+		</script>
+	</body>
+</html>
